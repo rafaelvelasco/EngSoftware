@@ -7,7 +7,9 @@ public class Customer {
 	private Vector _rentals = new Vector();
 
 	public Customer ( String name){
+		
 		_name = name;
+		
 	}
 
 	public void addRental(Rental arg){
@@ -16,7 +18,7 @@ public class Customer {
 
 	public String getName(){  
 		
-		
+		// com mudança
 		return _name;
 	}
 
